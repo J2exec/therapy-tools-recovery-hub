@@ -1,0 +1,30 @@
+{
+    "name": "therapy-tools-recovery-hub",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Azure Functions therapy-tools-recovery-hub for password reset operations",
+    "main": "index.js",
+    "scripts": {
+        "start": "func start",
+        "build": "echo \"Build step completed - no build required for this project\"",
+        "test": "echo \"No tests configured yet\"",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "prestart": "npm install",
+        "deploy": "echo \"Production deployment is handled via Git commits - push to main branch to trigger Azure deployment\""
+    },
+    "dependencies": {
+        "@azure/communication-email": "^1.0.0",
+        "@azure/data-tables": "^13.3.0",
+        "@azure/functions": "^4.7.2",
+        "@azure/identity": "^4.9.1",
+        "bcryptjs": "^3.0.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "prettier": "^3.3.3"
+    },
+    "engines": {
+        "node": ">=20"
+    }
+}
