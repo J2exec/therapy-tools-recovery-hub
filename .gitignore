@@ -161,11 +161,18 @@ Thumbs.db
 *_old*
 *_copy*
 
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # NPM configuration
 .npmrc
 
 # Deployment artifacts and temporary directories
 deployment.zip
+deployment-minimal.zip
 temp-*/
 temp_*/
 
