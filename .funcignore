@@ -16,3 +16,10 @@ temp-*/
 deployment*.zip
 .gitignore
 .funcignore
+app-logs/
+app-logs.zip
+EMERGENCY_CLEAN_INSTALL.ps1
+
+# CRITICAL: Ensure src/ directory is included in deployment
+!src/
+!src/**/*.js
